@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=NetLS_1 Pin=LS-1
+Added Pin To Net: NetName=NetLS_1 Pin=PIC-24
+Added Net: Name=NetLS_1
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo
+Added Room: Name=Sheet1

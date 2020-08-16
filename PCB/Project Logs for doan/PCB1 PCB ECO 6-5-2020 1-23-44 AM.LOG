@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=*-1
+Added Pin To Net: NetName=GND Pin=*-2
+Added Pin To Net: NetName=Net*_1 Pin=*-1
+Added Pin To Net: NetName=Net*_1 Pin=PIC-15
+Added Net: Name=Net*_1
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=LED Old Footprint=LED-O New Footprint=LED-5mm BLUE
+Change component parameters: Designator = "LED"; Footprint = "LED-5mm BLUE"; UniqueID = "\XRBUHSDF"
+Change component parameters. Clean all parameters for all variants
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo 

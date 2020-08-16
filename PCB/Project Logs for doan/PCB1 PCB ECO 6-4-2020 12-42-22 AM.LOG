@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=*-1
+Removed Pin From Net: NetName=5V Pin=*-3
+Added Pin To Net: NetName=5V Pin=*-1
+Added Pin To Net: NetName=GND Pin=*-3
+Added Member To Class: ClassName=Sheet1 Member=Component * Module Sim800a mini
+Added Member To Class: ClassName=Sheet1 Member=Component Crystal  20MHz
+Added Room: Name=Sheet1

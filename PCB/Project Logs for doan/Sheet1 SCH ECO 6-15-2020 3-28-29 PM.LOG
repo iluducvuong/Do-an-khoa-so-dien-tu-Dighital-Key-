@@ -1,0 +1,4 @@
+Change Pin Designator/Name:  Old Designator=*-1 Old Name=GND New Designator =Vcc New Name=2
+Change Pin Designator/Name:  Old Designator=*-2 Old Name=Vcc New Designator =Input New Name=1
+Change Pin Designator/Name:  Old Designator=*-3 Old Name=GND New Designator =GND New Name=3
+Change Pin Designator/Name:  Old Designator=*-3 Old Name=5V New Designator =GND New Name=3

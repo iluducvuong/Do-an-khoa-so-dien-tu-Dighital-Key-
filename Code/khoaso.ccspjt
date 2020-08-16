@@ -1,0 +1,84 @@
+[PROJECT]
+Target=khoaso.hex
+Processor_Text=PIC16F877A
+CCSVerions=5.025
+Compiler=PCM
+CCSVersion=5.025
+[Target Data]
+FileList=khoaso.c
+[Directories]
+Include=
+[F:\CCS\doankhoaso\khoaso]
+Type=4
+[mru-list]
+1=khoaso.c
+
+[ProjectLog]
+Days=2
+D1=15-05-2020
+D1_L=38
+D1_L1=[45228]Project Opened.
+D1_L2=[45234]Started Editing.
+D1_L3=[45534]Stopped Editing.
+D1_L4=[45602]Started Editing.
+D1_L5=[46175]Stopped Editing.
+TotalEdit=161
+TotalDebug=0
+D1_E=160
+D1_D=0
+D1_L6=[46602]Project Closed.
+D1_L7=[48103]Project Opened.
+D1_L8=[48168]Started Editing.
+D1_L9=[48759]Stopped Editing.
+D1_L10=[49298]Started Editing.
+D1_L11=[49706]Stopped Editing.
+D1_L12=[50174]Project Closed.
+D1_L13=[50306]Project Opened.
+D1_L14=[50322]Started Editing.
+D1_L15=[50582]Stopped Editing.
+D1_L16=[50582]Project Closed.
+D1_L17=[50582]Project Opened.
+D1_L18=[50617]Started Editing.
+D1_L19=[50918]Stopped Editing.
+D1_L20=[51150]Started Editing.
+D1_L21=[51691]Stopped Editing.
+D1_L22=[52288]Started Editing.
+D1_L23=[52579]Stopped Editing.
+D1_L24=[52579]Project Closed.
+D1_L25=[52582]Project Opened.
+D1_L26=[52589]Project Closed.
+D1_L27=[52729]Project Opened.
+D1_L28=[52736]Project Closed.
+D1_L29=[52831]Project Opened.
+D1_L30=[52868]Started Editing.
+D1_L31=[54929]Stopped Editing.
+D1_L32=[54980]Started Editing.
+D1_L33=[57049]Stopped Editing.
+D1_L34=[57094]Started Editing.
+D1_L35=[61076]Stopped Editing.
+D1_L36=[61107]Started Editing.
+D1_L37=[61928]Stopped Editing.
+D1_L38=[61928]Project Closed.
+D2=22-05-2020
+D2_L=10
+D2_L1=[57474]Project Opened.
+D2_L2=[57484]Project Closed.
+D2_L3=[58763]Project Opened.
+D2_L4=[58765]Started Editing.
+D2_L5=[58779]Stopped Editing.
+D2_E=1
+D2_D=0
+D2_L6=[58779]Project Closed.
+D2_L7=[58947]Project Opened.
+D2_L8=[58954]Project Closed.
+D2_L9=[60701]Project Opened.
+D2_L10=[60716]Project Closed.
+
+[Opened Files]
+1=khoaso.c
+2=
+[khoaso.c]
+Type=4
+[Units]
+Count=1
+1=khoaso (main)

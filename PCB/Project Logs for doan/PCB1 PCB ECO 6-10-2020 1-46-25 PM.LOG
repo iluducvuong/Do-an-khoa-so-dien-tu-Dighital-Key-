@@ -1,0 +1,22 @@
+Added Component: Designator=Q1(TO92-ECB-W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "COMPONENT"; Value = "2SC1815"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Digikey Part Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Open Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "H:\LIBRARY\LIBRARY.Datasheet\"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "500VND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PSpiceTemplate"; Value = "Q^@REFDES %c %b %e @MODEL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "13-April-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Hoang Nguyen"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor P/N"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetPIC_24 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=NetLS_2 Pin=Q1-3
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo
+Added Member To Class: ClassName=Sheet1 Member=Component Q1 C1815
+Added Member To Class: ClassName=Sheet1 Member=Component SW SW-2P-S
+Added Room: Name=Sheet1

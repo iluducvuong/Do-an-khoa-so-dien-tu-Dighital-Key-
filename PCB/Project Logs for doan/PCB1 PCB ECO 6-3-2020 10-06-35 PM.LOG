@@ -1,0 +1,8 @@
+Change Component Comment : Designator=Q1 Old Comment=C2383 New Comment=Transistor NPN
+Change component parameters: Designator = "Q1"; Footprint = "BCE"; UniqueID = "\IRGBDORH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "C828"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetLS_2 Pin=Q1-1
+Added Pin To Net: NetName=NetPIC_24 Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo 

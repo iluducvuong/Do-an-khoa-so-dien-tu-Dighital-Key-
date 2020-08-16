@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GND Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C4-2
+Removed Member From Class: ClassName=Sheet1 Member=C5
+Removed Member From Class: ClassName=Sheet1 Member=C6
+Change Component Designator: OldDesignator=C3 NewDesignator=C2
+Change Component Designator: OldDesignator=C5 NewDesignator=C3
+Change Component Designator: OldDesignator=C6 NewDesignator=C4
+Added Pin To Net: NetName=GND Pin=*-3
+Added Pin To Net: NetName=GND Pin=*-3
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=JP1-1
+Added Pin To Net: NetName=GND Pin=LCD-2
+Added Pin To Net: NetName=GND Pin=LCD-15
+Added Pin To Net: NetName=GND Pin=PIC-11
+Added Pin To Net: NetName=GND Pin=PIC-32
+Added Pin To Net: NetName=GND Pin=R1-2
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=GND Pin=R3-2
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=GND Pin=R7-2
+Added Pin To Net: NetName=GND Pin=VR-3
+Change Net Name : Old Net Name=GND New Net Name=5V
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo

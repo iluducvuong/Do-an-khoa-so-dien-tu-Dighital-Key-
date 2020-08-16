@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=Rx Pin=*-6
+Added Pin To Net: NetName=Rx Pin=PIC-26
+Added Net: Name=Rx
+Added Pin To Net: NetName=Tx Pin=*-5
+Added Pin To Net: NetName=Tx Pin=PIC-25
+Added Net: Name=Tx
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo 

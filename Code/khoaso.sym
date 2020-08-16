@@ -1,0 +1,165 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     MAIN.a
+022     MAIN.sai
+023     MAIN.count
+024     MAIN.dmk
+025     MAIN.solan
+026-02B MAIN.mk
+02C-031 MAIN.new1
+032-037 MAIN.new2
+038     MAIN.phim
+039     MAIN.k
+03A     quetphim.c
+03A     lcd_init.i
+03A     khoitao.@SCRATCH1
+03A     @PSTRINGC7_9600_62_63.@SCRATCH1
+03A     baodong.@SCRATCH1
+03A     MAIN.@SCRATCH1
+03A     @PSTRINGC7_650.@SCRATCH1
+03B     quetphim.r
+03B-03E lcd_init.LCD_INIT_STRING
+03B     @PSTRINGC7_9600_62_63.@SCRATCH2
+03B     baodong.@SCRATCH2
+03B     @PSTRINGC7_650.@SCRATCH2
+03C     quetcot.col
+03C     quetphim.@SCRATCH1
+03C     @PSTRINGC7_9600_62_63.@SCRATCH3
+03C     baodong.@SCRATCH3
+03C     @PSTRINGC7_650.@SCRATCH3
+03D     lcd_putc.c
+03D     @PSTRINGC7_9600_62_63.@SCRATCH4
+03D     baodong.@SCRATCH4
+03D     @PSTRINGC7_650.@SCRATCH4
+03E     lcd_gotoxy.x
+03E     baodong.@SCRATCH5
+03F     lcd_gotoxy.y
+03F     @delay_ms2.P1
+03F     lcd_init.@SCRATCH1
+03F     baodong.@SCRATCH6
+040     lcd_gotoxy.address
+040     baodong.@SCRATCH7
+041     lcd_gotoxy.@SCRATCH1
+041     baodong.@SCRATCH8
+042     lcd_send_byte.address
+042     baodong.@SCRATCH9
+043     lcd_send_byte.n
+043     baodong.@SCRATCH10
+044     lcd_read_byte.low
+044     lcd_send_byte.@SCRATCH1
+045     lcd_read_byte.high
+045     lcd_send_nibble.n
+046     lcd_read_nibble.n
+046     lcd_read_byte.@SCRATCH1
+047     lcd_read_nibble.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  key.call
+000008  key.data
+000018  @const673.call
+00001B  @const675.call
+00001E  @const676.call
+000025  @const677.call
+00002A  @const678.call
+000033  @const694.call
+00003B  @const697.call
+00003C  @const699.call
+00003D  @const701.call
+00003E  @const703.call
+00003F  @const705.call
+000040  @const707.call
+000041  @const708.call
+000046  @const709.call
+00004B  @const710.call
+000052  @const711.call
+00005B  @const712.call
+000063  @const713.call
+000064  @const714.call
+000065  @const715.call
+000066  @const716.call
+000067  @const717.call
+000068  @const718.call
+000069  @const719.call
+00006F  @const720.call
+000077  @const721.call
+00007D  @const722.call
+000084  @const723.call
+000087  @const724.call
+00008E  @const725.call
+000095  @const726.call
+00009C  @const727.call
+00009F  @const728.call
+0000A6  @const729.call
+0000AC  @const731.call
+0000B3  @const732.call
+0000BA  @const733.call
+0000BF  @const734.call
+0000C6  @delay_ms2
+0000DA  lcd_send_nibble
+00010A  lcd_read_nibble
+00013B  lcd_send_byte
+000143  lcd_read_byte
+000199  lcd_init
+0001DF  lcd_gotoxy
+0001F1  lcd_putc
+00021D  @PSTRINGC7_650
+000273  quetphim
+00027D  quetcot
+0002F6  @PSTRINGC7_9600_62_63
+00034E  khoitao
+0003C4  baodong
+000800  @cinit1
+000800  MAIN
+000814  @cinit2
+
+Project Directory:
+    F:\CCS\doankhoaso\
+
+Project Files:
+    khoaso.c                                                [22-May-20 16:19  CRC=599DDF87]
+    khoaso.h                                                [15-May-20 12:33  CRC=CF12E969]
+    E:\Program\PICC\Devices\16F877A.h                       [18-Apr-14 16:56  CRC=4F277C97]
+    E:\Program\PICC\Drivers\lcd.c                           [03-Dec-19 18:33  CRC=D1A6378A]
+
+Source signature=1B24B49B
+
+Units:
+    khoaso (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   khoaso.xsym
+    Errors:      khoaso.err
+    Ext Symbols: khoaso.esym
+    INHX8:       khoaso.hex
+    Symbols:     khoaso.sym
+    List:        khoaso.lst
+    Debug/COFF:  khoaso.cof
+    Project:     khoaso.ccspjt
+    Call Tree:   khoaso.tre
+    Statistics:  khoaso.STA

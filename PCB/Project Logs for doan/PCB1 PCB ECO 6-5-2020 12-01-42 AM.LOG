@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=5V Pin=*-3
+Removed Pin From Net: NetName=5V Pin=*-3
+Removed Pin From Net: NetName=5V Pin=C2-1
+Removed Pin From Net: NetName=5V Pin=C3-1
+Removed Pin From Net: NetName=5V Pin=JP1-1
+Removed Pin From Net: NetName=5V Pin=LCD-2
+Removed Pin From Net: NetName=5V Pin=LCD-15
+Removed Pin From Net: NetName=5V Pin=PIC-11
+Removed Pin From Net: NetName=5V Pin=PIC-32
+Removed Pin From Net: NetName=5V Pin=R1-2
+Removed Pin From Net: NetName=5V Pin=R2-2
+Removed Pin From Net: NetName=5V Pin=R3-2
+Removed Pin From Net: NetName=5V Pin=R4-2
+Removed Pin From Net: NetName=5V Pin=R5-2
+Removed Pin From Net: NetName=5V Pin=R7-2
+Removed Pin From Net: NetName=5V Pin=VR-3
+Change Net Name : Old Net Name=5V New Net Name=GND
+Added Pin To Net: NetName=5V Pin=*-3
+Added Pin To Net: NetName=5V Pin=*-3
+Added Pin To Net: NetName=5V Pin=C2-1
+Added Pin To Net: NetName=5V Pin=C3-1
+Added Pin To Net: NetName=5V Pin=JP1-1
+Added Pin To Net: NetName=5V Pin=LCD-2
+Added Pin To Net: NetName=5V Pin=LCD-15
+Added Pin To Net: NetName=5V Pin=PIC-11
+Added Pin To Net: NetName=5V Pin=PIC-32
+Added Pin To Net: NetName=5V Pin=R1-2
+Added Pin To Net: NetName=5V Pin=R2-2
+Added Pin To Net: NetName=5V Pin=R3-2
+Added Pin To Net: NetName=5V Pin=R4-2
+Added Pin To Net: NetName=5V Pin=R5-2
+Added Pin To Net: NetName=5V Pin=R7-2
+Added Pin To Net: NetName=5V Pin=VR-3
+Added Net: Name=5V
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo

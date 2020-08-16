@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=LCD Old Footprint=LCD16X2 New Footprint=LCD16X2N
+Added Member To Class: ClassName=Sheet1 Member=Component * Servo
+Added Member To Class: ClassName=Sheet1 Member=Component SW SW-2P-S
+Added Room: Name=Sheet1

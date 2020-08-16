@@ -1,0 +1,194 @@
+Wire List
+
+<<< Component List >>>
+Module Sim800a mini             *              CON6
+Servo                           *              CON3-2
+1000uF                          C1             Cap 10mm
+1000uF                          C2             Cap 10mm
+1000uF                          C3             Cap 10mm
+1000uF                          C4             Cap 10mm
+1000uF                          C5             Cap 10mm
+1000uF                          C6             Cap 10mm
+Capacitor Ceramic               C7             Tu-ceramic
+Capacitor Ceramic               C8             Tu-ceramic
+20MHz                           Crystal        XTAL
+Header 2_1                      JP1            HED2
+Component_1                     Keypad 4x      CON8
+LCD 16x2A                       LCD            LCD16X2
+LED                             LED            LED-5mm BLUE
+SPEAKER                         LS             speaker
+PIC16F877A-E/P                  PIC            DIP.100/40/W.600/L2.100
+Transistor NPN                  Q1             BCE
+10k                             R1             R1/4W
+10k                             R2             R1/4W
+10k                             R3             R1/4W
+10k                             R4             R1/4W
+10k                             R5             R1/4W
+RESISTOR                        R6             Res 10mm (1/2W)
+RESISTOR                        R7             Res 10mm (1/2W)
+SW-2P-S                         SW             SW-BIG
+10K                             VR             VR
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] Tx
+        *          6       Rx             PASSIVE     Module Sim800a mini
+        PIC        25      RC6/TX/CK      I/O         PIC16F877A-E/P
+
+[00002] TA2
+        C8         2       2              PASSIVE     Capacitor Ceramic
+        Crystal    1       OSC1           PASSIVE     20MHz
+        PIC        14      OSC2/CLKO      OUTPUT      PIC16F877A-E/P
+
+[00003] TA1
+        C7         2       2              PASSIVE     Capacitor Ceramic
+        Crystal    2       OSC2           PASSIVE     20MHz
+        PIC        13      OSC1/CLKI      INPUT       PIC16F877A-E/P
+
+[00004] Rx
+        *          5       Tx             PASSIVE     Module Sim800a mini
+        PIC        26      RC7/RX/DT      I/O         PIC16F877A-E/P
+
+[00010] NetPIC_24
+        PIC        24      RC5/SDO        I/O         PIC16F877A-E/P
+        Q1         2       B              PASSIVE     Transistor NPN
+
+[00011] NetPIC_23
+        PIC        23      RC4/SDI/SDA    I/O         PIC16F877A-E/P
+        R6         1       1              PASSIVE     RESISTOR
+
+[00020] NetLS_2
+        LS         2       -              PASSIVE     SPEAKER
+        Q1         1       C              PASSIVE     Transistor NPN
+
+[00021] NetLS_1
+        LS         1       +              PASSIVE     SPEAKER
+        R7         1       1              PASSIVE     RESISTOR
+
+[00022] NetLED_1
+        LED        1       1              PASSIVE     LED
+        R6         2       2              PASSIVE     RESISTOR
+
+[00027] NetLCD_3
+        LCD        3       VEE            PASSIVE     LCD 16x2A
+        VR         2       2              PASSIVE     10K
+
+[00028] NetC1_1
+        C1         1       1              PASSIVE     1000uF
+        PIC        1       M\C\L\R\/VPP   INPUT       PIC16F877A-E/P
+        R1         1       1              PASSIVE     10k
+        SW         2       2              PASSIVE     SW-2P-S
+
+[00030] Net*_2
+        *          2       Input          PASSIVE     Servo 
+        PIC        15      RC0/T1OSO/T1CKII/O         PIC16F877A-E/P
+
+[00031] GND
+        *          1       Vcc            PASSIVE     Servo 
+        *          1       GND            PASSIVE     Module Sim800a mini
+        *          2       GND            PASSIVE     Module Sim800a mini
+        C1         2       2              PASSIVE     1000uF
+        C2         2       2              PASSIVE     1000uF
+        C3         2       2              PASSIVE     1000uF
+        C4         2       2              PASSIVE     1000uF
+        C5         2       2              PASSIVE     1000uF
+        C6         2       2              PASSIVE     1000uF
+        C7         1       1              PASSIVE     Capacitor Ceramic
+        C8         1       1              PASSIVE     Capacitor Ceramic
+        JP1        2       2              PASSIVE     Header 2_1
+        LCD        1       GND            PASSIVE     LCD 16x2A
+        LCD        16      K              PASSIVE     LCD 16x2A
+        LED        2       2              PASSIVE     LED
+        PIC        12      VSS            POWER       PIC16F877A-E/P
+        PIC        31      VSS            POWER       PIC16F877A-E/P
+        Q1         3       E              PASSIVE     Transistor NPN
+        SW         1       1              PASSIVE     SW-2P-S
+        VR         1       1              PASSIVE     10K
+
+[00032] E1
+        Keypad 4x  1       C4             PASSIVE     Component_1
+        PIC        9       RE1/W\R\/AN6   I/O         PIC16F877A-E/P
+        R5         1       1              PASSIVE     10k
+
+[00033] E0
+        Keypad 4x  2       C3             PASSIVE     Component_1
+        PIC        8       RE0/R\D\/AN5   I/O         PIC16F877A-E/P
+        R4         1       1              PASSIVE     10k
+
+[00034] B7
+        LCD        14      D7             PASSIVE     LCD 16x2A
+        PIC        40      RB7/PGD        I/O         PIC16F877A-E/P
+
+[00035] B6
+        LCD        13      D6             PASSIVE     LCD 16x2A
+        PIC        39      RB6/PGC        I/O         PIC16F877A-E/P
+
+[00036] B5
+        LCD        12      D5             PASSIVE     LCD 16x2A
+        PIC        38      RB5            I/O         PIC16F877A-E/P
+
+[00037] B4
+        LCD        11      D4             PASSIVE     LCD 16x2A
+        PIC        37      RB4            I/O         PIC16F877A-E/P
+
+[00038] B2
+        LCD        6       E\N\           PASSIVE     LCD 16x2A
+        PIC        35      RB2            I/O         PIC16F877A-E/P
+
+[00039] B1
+        LCD        5       R/W\           PASSIVE     LCD 16x2A
+        PIC        34      RB1            I/O         PIC16F877A-E/P
+
+[00040] B0
+        LCD        4       RS             PASSIVE     LCD 16x2A
+        PIC        33      RB0/INT        I/O         PIC16F877A-E/P
+
+[00041] A5
+        Keypad 4x  3       C2             PASSIVE     Component_1
+        PIC        7       RA5/AN4/S\S\/C2I/O         PIC16F877A-E/P
+        R3         1       1              PASSIVE     10k
+
+[00042] A4
+        Keypad 4x  4       C1             PASSIVE     Component_1
+        PIC        6       RA4/T0CKI/C1OUTI/O         PIC16F877A-E/P
+        R2         1       1              PASSIVE     10k
+
+[00043] A3
+        Keypad 4x  5       R4             PASSIVE     Component_1
+        PIC        5       RA3/AN3/VREF+  I/O         PIC16F877A-E/P
+
+[00044] A2
+        Keypad 4x  6       R3             PASSIVE     Component_1
+        PIC        4       RA2/AN2/VREF-/CI/O         PIC16F877A-E/P
+
+[00045] A1
+        Keypad 4x  7       R2             PASSIVE     Component_1
+        PIC        3       RA1/AN1        I/O         PIC16F877A-E/P
+
+[00046] A0
+        Keypad 4x  8       R1             PASSIVE     Component_1
+        PIC        2       RA0/AN0        I/O         PIC16F877A-E/P
+
+[00047] 5V
+        *          3       GND            PASSIVE     Servo 
+        *          3       5V             PASSIVE     Module Sim800a mini
+        C2         1       1              PASSIVE     1000uF
+        C3         1       1              PASSIVE     1000uF
+        C4         1       1              PASSIVE     1000uF
+        C5         1       1              PASSIVE     1000uF
+        C6         1       1              PASSIVE     1000uF
+        JP1        1       1              PASSIVE     Header 2_1
+        LCD        2       VDD            PASSIVE     LCD 16x2A
+        LCD        15      A              PASSIVE     LCD 16x2A
+        PIC        11      VDD            POWER       PIC16F877A-E/P
+        PIC        32      VDD            POWER       PIC16F877A-E/P
+        R1         2       2              PASSIVE     10k
+        R2         2       2              PASSIVE     10k
+        R3         2       2              PASSIVE     10k
+        R4         2       2              PASSIVE     10k
+        R5         2       2              PASSIVE     10k
+        R7         2       2              PASSIVE     RESISTOR
+        VR         3       3              PASSIVE     10K
+
